@@ -17,8 +17,15 @@ struct MainMap: View {
         showDetail ? 175: 0
     }
     
+    var headingOffset: CGFloat {
+        if let screenHeight = UIScreen.current?.bounds.height {
+            return (screenHeight / 3) * 2
+        }
+        return 0
+    }
+    
     var mapTopInset: CGFloat {
-        self.locationManager.userCameraType == .heading ? 250: 0
+        self.locationManager.userCameraType == .heading ? headingOffset: 0
     }
     
     // MARK: - Binding Properties

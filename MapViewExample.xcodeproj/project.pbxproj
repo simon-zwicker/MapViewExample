@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40737C22BA32B570043BBA4 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40737C12BA32B570043BBA4 /* UIWindow.swift */; };
+		F40737C42BA32B730043BBA4 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40737C32BA32B730043BBA4 /* UIScreen.swift */; };
 		F4B466B42BA2F03300E42FDA /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B466B32BA2F03300E42FDA /* LocationManager.swift */; };
 		F4B466BA2BA2F09100E42FDA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B466B92BA2F09100E42FDA /* View.swift */; };
 		F4B466BC2BA2F0A500E42FDA /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B466BB2BA2F0A500E42FDA /* ButtonWrapper.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40737C12BA32B570043BBA4 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		F40737C32BA32B730043BBA4 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		F4B466B32BA2F03300E42FDA /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F4B466B92BA2F09100E42FDA /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		F4B466BB2BA2F0A500E42FDA /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				F4B466B92BA2F09100E42FDA /* View.swift */,
+				F40737C12BA32B570043BBA4 /* UIWindow.swift */,
+				F40737C32BA32B730043BBA4 /* UIScreen.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40737C22BA32B570043BBA4 /* UIWindow.swift in Sources */,
 				F4B466BA2BA2F09100E42FDA /* View.swift in Sources */,
 				F4B466C12BA2FE6700E42FDA /* DetailView.swift in Sources */,
 				F4CC2F432BA242C000739EA9 /* MainMapView.swift in Sources */,
@@ -221,6 +228,7 @@
 				F4B466BC2BA2F0A500E42FDA /* ButtonWrapper.swift in Sources */,
 				F4CC2F412BA242C000739EA9 /* MapViewExampleApp.swift in Sources */,
 				F4B466B42BA2F03300E42FDA /* LocationManager.swift in Sources */,
+				F40737C42BA32B730043BBA4 /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

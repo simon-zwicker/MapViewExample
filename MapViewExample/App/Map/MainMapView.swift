@@ -38,7 +38,7 @@ struct MainMapView: View {
                     .animation(.easeInOut, value: showDetail)
                     .offset(x: detailOffset)
             }
-            .padding(.vertical)
+            .padding()
         }
         .mapScope(mapScope)
     }
